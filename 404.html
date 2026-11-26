@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/krade-app/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="같은 나이대 안에서 내 위치를 확인하는 KRADE">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="KRADE">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>KRADE</title>
+  <meta name="theme-color" content="#070E1A">
+  <!-- 로고 글자 서체. Flutter 에셋 폴더의 파일을 그대로 쓴다(외부 CDN 없음). -->
+  <link rel="preload" href="assets/assets/fonts/SofiaSansExtraCondensed-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <style>
+    @font-face {
+      font-family: "KradeSofia";
+      src: url("assets/assets/fonts/SofiaSansExtraCondensed-Bold.ttf") format("truetype");
+      font-weight: 700;
+      font-display: block;
+    }
+    html, body { margin: 0; background: #070E1A; }
+    /* `flutter run -d chrome`(디버그)일 때 Flutter 도구가 끼워 넣는 파란 로딩 막대를 숨긴다.
+       릴리스 빌드에는 원래 없다. */
+    .flutter-loader { display: none !important; }
+    /* Flutter 시작 화면(lib/features/splash/splash_gate.dart)과 같은 크기·위치.
+       --logo = SplashGate.logoSize, 글자 = ×1.3, 간격 = ×0.28 (KradeLogo 비율) */
+    #krade-loader {
+      --logo: 56px;
+      position: fixed; inset: 0; z-index: 10;
+      display: flex; align-items: center; justify-content: center;
+      gap: calc(var(--logo) * 0.28);
+      background: #070E1A;
+    }
+    #krade-loader svg { width: calc(var(--logo) * 1.25); height: var(--logo); overflow: visible; }
+    #krade-loader path {
+      transform-box: fill-box; transform-origin: 50% 100%;
+      transform: scaleY(0);
+      animation: krade-rise 364ms cubic-bezier(0.215, 0.61, 0.355, 1) forwards;
+    }
+    #krade-loader path:nth-child(2) { animation-delay: 112ms; }
+    #krade-loader path:nth-child(3) { animation-delay: 224ms; }
+    #krade-loader path:nth-child(4) { animation-delay: 336ms; }
+    #krade-loader span {
+      font: 700 calc(var(--logo) * 1.3)/1 "KradeSofia", sans-serif;
+      letter-spacing: calc(var(--logo) * 0.06);
+      color: #EDEFF3;
+    }
+    @keyframes krade-rise { to { transform: scaleY(1); } }
+    @media (prefers-reduced-motion: reduce) {
+      #krade-loader path { animation: none; transform: none; }
+    }
+  </style>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- Flutter가 로드되는 동안 보이는 로고 화면. 첫 프레임이 그려지면 지운다. -->
+  <div id="krade-loader" role="img" aria-label="KRADE">
+    <svg viewBox="0 0 30 24" aria-hidden="true">
+      <defs>
+        <linearGradient id="krade-gold" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="30" y2="0">
+          <stop offset="0" stop-color="#B8862E"/>
+          <stop offset="1" stop-color="#E2B45F"/>
+        </linearGradient>
+      </defs>
+      <g fill="url(#krade-gold)">
+        <path d="M1 23 L4.4 16 L8 15.4 L4.6 23 Z"/>
+        <path d="M7.6 23 L11.6 12 L15.2 11.4 L11.2 23 Z"/>
+        <path d="M14.2 23 L18.8 7.8 L22.4 7.2 L17.8 23 Z"/>
+        <path d="M20.8 23 L26 2.2 L29.6 1.6 L24.4 23 Z"/>
+      </g>
+    </svg>
+    <span aria-hidden="true">KRADE</span>
+  </div>
+  <script>
+    (function () {
+      // 막대 연출(700ms)이 끝났는지 Flutter 시작 화면에 알려 이어받게 한다.
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.kradeLoaderRiseDone = reduce;
+      if (!reduce) setTimeout(function () { window.kradeLoaderRiseDone = true; }, 700);
+      window.addEventListener('flutter-first-frame', function () {
+        var el = document.getElementById('krade-loader');
+        if (el) el.remove();
+      }, { once: true });
+    })();
+  </script>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

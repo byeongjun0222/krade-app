@@ -1,0 +1,28 @@
+[
+  {
+    "categoryId": "padding",
+    "fromTier": "S",
+    "toTier": "S+",
+    "brandName": "파타고니아",
+    "title": "다음 티어는, 파타고니아.",
+    "body": "TODO",
+    "image": "assets/ads/padding_patagonia.jpg",
+    "ctaLabel": "파타고니아 공식 홈페이지",
+    "url": "TODO",
+    "disclaimer": null,
+    "isSample": true
+  },
+  {
+    "categoryId": "padding",
+    "fromTier": "SS",
+    "toTier": "SS+",
+    "brandName": "맥케이지",
+    "title": "다음 티어는, 맥케이지.",
+    "body": "TODO",
+    "image": "assets/ads/padding_mackage.jpg",
+    "ctaLabel": "맥케이지 공식 홈페이지",
+    "url": "TODO",
+    "disclaimer": null,
+    "isSample": true
+  }
+]

@@ -1,0 +1,845 @@
+{
+  "title": "KRADE Tier List - 패딩 브랜드",
+  "basis": "대표 패딩 정가대 + 충전재 스펙 + 국내 인지도·선호도를 종합한 주관적 분류. 같은 칸 안 순서는 의미 없음.",
+  "tiers": [
+    {
+      "tier": "SSS+",
+      "rank": 1,
+      "topPercent": null
+    },
+    {
+      "tier": "SSS",
+      "rank": 2,
+      "topPercent": null
+    },
+    {
+      "tier": "SS+",
+      "rank": 3,
+      "topPercent": null
+    },
+    {
+      "tier": "SS",
+      "rank": 4,
+      "topPercent": null
+    },
+    {
+      "tier": "S+",
+      "rank": 5,
+      "topPercent": null
+    },
+    {
+      "tier": "S",
+      "rank": 6,
+      "topPercent": null
+    },
+    {
+      "tier": "A+",
+      "rank": 7,
+      "topPercent": null
+    },
+    {
+      "tier": "A",
+      "rank": 8,
+      "topPercent": null
+    },
+    {
+      "tier": "B+",
+      "rank": 9,
+      "topPercent": null
+    },
+    {
+      "tier": "B",
+      "rank": 10,
+      "topPercent": null
+    },
+    {
+      "tier": "C+",
+      "rank": 11,
+      "topPercent": null
+    },
+    {
+      "tier": "C",
+      "rank": 12,
+      "topPercent": null
+    },
+    {
+      "tier": "D+",
+      "rank": 13,
+      "topPercent": null
+    },
+    {
+      "tier": "D",
+      "rank": 14,
+      "topPercent": null
+    },
+    {
+      "tier": "E+",
+      "rank": 15,
+      "topPercent": null
+    },
+    {
+      "tier": "E",
+      "rank": 16,
+      "topPercent": null
+    },
+    {
+      "tier": "F",
+      "rank": 17,
+      "topPercent": null
+    }
+  ],
+  "brands": [
+    {
+      "id": "pad_001",
+      "name": "몽클레르",
+      "tier": "SSS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_002",
+      "name": "로로피아나",
+      "tier": "SSS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_003",
+      "name": "브루넬로 쿠치넬리",
+      "tier": "SSS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_004",
+      "name": "에르메스",
+      "tier": "SSS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_005",
+      "name": "무스너클",
+      "tier": "SSS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_006",
+      "name": "에르노",
+      "tier": "SSS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_007",
+      "name": "캐나다구스",
+      "tier": "SSS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_008",
+      "name": "발렌시아가",
+      "tier": "SSS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_009",
+      "name": "프라다",
+      "tier": "SSS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_010",
+      "name": "톰브라운",
+      "tier": "SSS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_011",
+      "name": "몽클레르 그르노블",
+      "tier": "SSS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_012",
+      "name": "스톤아일랜드",
+      "tier": "SS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_013",
+      "name": "파라점퍼스",
+      "tier": "SS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_014",
+      "name": "맥케이지",
+      "tier": "SS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_015",
+      "name": "듀베티카",
+      "tier": "SS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_016",
+      "name": "피레넥스",
+      "tier": "SS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_017",
+      "name": "아크테릭스 베일런스",
+      "tier": "SS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_018",
+      "name": "데상트 올테레인",
+      "tier": "SS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_019",
+      "name": "버버리",
+      "tier": "SS+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_020",
+      "name": "아크테릭스",
+      "tier": "SS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_021",
+      "name": "울리치",
+      "tier": "SS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_022",
+      "name": "노비스",
+      "tier": "SS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_023",
+      "name": "씨피컴퍼니",
+      "tier": "SS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_024",
+      "name": "폴로 랄프로렌",
+      "tier": "SS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_025",
+      "name": "골드윈",
+      "tier": "SS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_026",
+      "name": "나나미카",
+      "tier": "SS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_027",
+      "name": "와일드씽스",
+      "tier": "SS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_028",
+      "name": "메종 키츠네",
+      "tier": "SS",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_029",
+      "name": "파타고니아",
+      "tier": "S+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_030",
+      "name": "랩(Rab)",
+      "tier": "S+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_031",
+      "name": "마무트",
+      "tier": "S+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_032",
+      "name": "몬테인",
+      "tier": "S+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_033",
+      "name": "페더드프렌즈",
+      "tier": "S+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_034",
+      "name": "카일라스",
+      "tier": "S+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_035",
+      "name": "오디로",
+      "tier": "S+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_036",
+      "name": "마운틴하드웨어",
+      "tier": "S+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_037",
+      "name": "노스페이스",
+      "tier": "S",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_038",
+      "name": "코오롱스포츠",
+      "tier": "S",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_039",
+      "name": "살로몬",
+      "tier": "S",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_040",
+      "name": "헬리한센",
+      "tier": "S",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_041",
+      "name": "스노우피크 어패럴",
+      "tier": "S",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_042",
+      "name": "블랙다이아몬드",
+      "tier": "S",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_043",
+      "name": "시에라디자인",
+      "tier": "S",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_044",
+      "name": "몽벨",
+      "tier": "A+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_045",
+      "name": "디스커버리 익스페디션",
+      "tier": "A+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_046",
+      "name": "아이더",
+      "tier": "A+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_047",
+      "name": "내셔널지오그래픽",
+      "tier": "A+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_048",
+      "name": "노스페이스 화이트라벨",
+      "tier": "A+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_049",
+      "name": "K2",
+      "tier": "A",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_050",
+      "name": "블랙야크",
+      "tier": "A",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_051",
+      "name": "네파",
+      "tier": "A",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_052",
+      "name": "밀레",
+      "tier": "A",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_053",
+      "name": "컬럼비아",
+      "tier": "A",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_054",
+      "name": "라푸마",
+      "tier": "A",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_055",
+      "name": "노스케이프",
+      "tier": "A",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_056",
+      "name": "커버낫",
+      "tier": "B+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_057",
+      "name": "디스이즈네버댓",
+      "tier": "B+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_058",
+      "name": "쿠어",
+      "tier": "B+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_059",
+      "name": "인사일런스",
+      "tier": "B+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_060",
+      "name": "아웃스탠딩",
+      "tier": "B+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_061",
+      "name": "에스피오나지",
+      "tier": "B+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_062",
+      "name": "마하그리드",
+      "tier": "B+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_063",
+      "name": "엘엠씨",
+      "tier": "B+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_064",
+      "name": "나이키",
+      "tier": "B",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_065",
+      "name": "아디다스",
+      "tier": "B",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_066",
+      "name": "뉴발란스",
+      "tier": "B",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_067",
+      "name": "푸마",
+      "tier": "B",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_068",
+      "name": "휠라",
+      "tier": "B",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_069",
+      "name": "엄브로",
+      "tier": "B",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_070",
+      "name": "챔피온",
+      "tier": "B",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_071",
+      "name": "MLB",
+      "tier": "B",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_072",
+      "name": "무신사 스탠다드",
+      "tier": "B",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_073",
+      "name": "유니클로",
+      "tier": "C+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_074",
+      "name": "자라",
+      "tier": "C+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_075",
+      "name": "갭",
+      "tier": "C+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_076",
+      "name": "마인드브릿지",
+      "tier": "C+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_077",
+      "name": "르아르",
+      "tier": "C+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_078",
+      "name": "드로우핏",
+      "tier": "C+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_079",
+      "name": "수아레",
+      "tier": "C+",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_080",
+      "name": "스파오",
+      "tier": "C",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_081",
+      "name": "탑텐",
+      "tier": "C",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_082",
+      "name": "에잇세컨즈",
+      "tier": "C",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_083",
+      "name": "지오다노",
+      "tier": "C",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_084",
+      "name": "후아유",
+      "tier": "C",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_085",
+      "name": "미쏘",
+      "tier": "C",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_086",
+      "name": "H&M",
+      "tier": "C",
+      "kind": "brand",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_087",
+      "name": "홈쇼핑 구스다운",
+      "tier": "D+",
+      "kind": "type",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_088",
+      "name": "아울렛 기획 패딩",
+      "tier": "D+",
+      "kind": "type",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_089",
+      "name": "백화점 행사장 패딩",
+      "tier": "D+",
+      "kind": "type",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_090",
+      "name": "마트 PB 패딩(노브랜드·데이즈 등)",
+      "tier": "D",
+      "kind": "type",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_091",
+      "name": "쿠팡·에이블리·지그재그 보세 덕다운",
+      "tier": "D",
+      "kind": "type",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_092",
+      "name": "알리익스프레스·테무·쉬인 패딩",
+      "tier": "E+",
+      "kind": "type",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_093",
+      "name": "짝퉁 몽클레르·캐나다구스",
+      "tier": "E",
+      "kind": "type",
+      "label": null,
+      "tagline": null
+    },
+    {
+      "id": "pad_094",
+      "name": "패딩 없음 (후리스로 버팀)",
+      "tier": "F",
+      "kind": "type",
+      "label": null,
+      "tagline": null
+    }
+  ]
+}
