@@ -32382,7 +32382,7 @@ case 6:case 1:return A.y(q,r)
 case 2:return A.x(o.at(-1),r)}})
 return A.z($async$a8O,r)},
 bhQ(a,b){var s,r,q
-for(s=["assets/ads/"+a.d+".jpg",a.r],r=0;r<2;++r){q=s[r]
+for(s=["assets/ads/"+a.d+".jpg",a.r,"assets/ads/default.png"],r=0;r<3;++r){q=s[r]
 if(q!=null&&b.q(0,q))return q}return null},
 blc(a,b,c,d){var s,r,q,p=null,o=c.aEN(d)
 if(o==null)return p
